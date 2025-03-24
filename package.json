@@ -13,7 +13,7 @@
     "docs:build": "vuepress build docs",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "update": "node ./tools/update.js"
+    "//update": "node ./tools/update.js"
   },
   "author": "rash <rash@rash.codes> (https://rash.codes)",
   "homepage": "https://github.com/rashfael/eslint-plugin-vue-pug",
@@ -42,6 +42,6 @@
     "vue-eslint-parser-template-tokenizer-pug": "^0.4.11"
   },
   "peerDependencies": {
-    "eslint-plugin-vue": "^9.8.0"
+    "eslint-plugin-vue": "^10.0.0"
   }
 }
